@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:wght@300&display=swap');
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2c3e50;
+}
+
+header {
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: auto;
+}
+
+header h1, h2 {
+  font-family: "Mooli", cursive;
+  margin: 10px;
+}
+
+img {
+  border: #fff 3px solid;
+}
+
+table {
+  border-collapse: collapse;
+  color: #fff;
+}
+
+td {
+  padding: 20px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2c3e50;
+}
+
+li {
+  padding: 0 0 10px 0px;
+}
+
+.technical {
+  height: 80px;
+}
+
+.tech {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+}
+
+.tech li {
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: #fff;
+  color: #2c3e50;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
